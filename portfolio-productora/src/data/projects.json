@@ -1,0 +1,108 @@
+[
+  {
+    "title": "ON ERES QUAN HI ERES (2025)",
+    "description": "Largometraje documental\nProductora Junior – LaCima Producciones",
+    "media": "/src/assets/on-eres.jpg",
+    
+    "isVideo": false,
+    "section": "produccion"
+  },
+  {
+    "title": "TARDES DE SOLEDAD (2025)",
+    "description": "Largometraje documental\nProductora Junior – LaCima Producciones",
+    "media": "src/assets/soledad.png",
+    "isVideo": false,
+    "section": "produccion"
+  },
+  {
+    "title": "FUTBOL MODEST (2024)",
+    "description": "Programa de televisión\nAyudante de producción – Estudi Carmel",
+    "media": "",
+    "isVideo": false,
+    "section": "produccion"
+  },
+  {
+    "title": "LA NOCHE DE LA INFANCIA",
+    "description": "Largometraje documental\nen postproducción\nProductora Junior – LaCima Producciones",
+    "media": "src/assets/infancia.jpg",
+    "isVideo": false,
+    "section": "produccion"
+  },
+  {
+    "title": "BAILAR LA MUERTE",
+    "description": "Largometraje documental\nen postproducción\nProductora Junior – LaCima Producciones",
+    "media": "src/assets/bailar-la-muerte.jpg",
+    "isVideo": false,
+    "section": "produccion"
+  },
+  {
+    "title": "LA RESERVA",
+    "description": "Largometraje documental\nen postproducción\nProductora Junior – LaCima Producciones",
+    "media": "",
+    "isVideo": false,
+    "section": "produccion"
+  },
+  {
+    "title": "LARVA (2025)",
+    "description": "Cortometraje de ficción\nJefa de producción",
+    "media": "",
+    "isVideo": false,
+    "section": "produccion"
+  },
+  {
+    "title": "INÉS (2024)",
+    "description": "Cortometraje de ficción\nAyudante de producción",
+    "media": "src/assets/ines.jpg",
+    "isVideo": false,
+    "section": "produccion"
+  },
+  {
+    "title": "AM-ARTE (2023)",
+    "description": "Cortometraje de ficción\nAyudante de producción",
+    "media": "src/assets/am-arte.jpg",
+    "isVideo": false,
+    "section": "produccion"
+  },
+  {
+    "title": "MASHA (2025)",
+    "description": "Cortometraje de ficción\nen postproducción",
+    "media": "src/assets/masha.jpg",
+    "isVideo": false,
+    "section": "direccion"
+  },
+  {
+    "title": "LA PRÈVIA (2025)",
+    "description": "Cortometraje de ficción\nen postproducción",
+    "media": "src/assets/la-previa.jpg",
+    "isVideo": false,
+    "section": "direccion"
+  },
+  {
+    "title": "GRÀCIES de Cristina Díaz (2024)",
+    "description": "Videoclip",
+    "media": "https://www.youtube.com/embed/r9QvJBxfqW4?si=zSnU1PbZktBfDcjr",
+    "isVideo": true,
+    "section": "direccion"
+  },
+  {
+    "title": "ROMA de Gerard Mora (2024)",
+    "description": "Videoclip",
+    "media": "https://www.youtube.com/embed/cD3llEoHhTc?si=e9QSq5H-EBEDMo-7",
+    "isVideo": true,
+    "section": "direccion"
+  },
+  {
+    "title": "VÍDEO DE L'ESTIU DE PRODIS 2023: M'ÉS IGUAL!",
+    "description": "Videoclip",
+    "media": "https://www.youtube.com/embed/gvQqfuG4pd4?si=qltlv6sXufGX0xJC",
+    "isVideo": true,
+    "section": "direccion"
+  },
+  {
+    "title": "LA GÀBIA DE FLORS",
+    "description": "Largometraje de ficción\nen desarrollo",
+    "media": "",
+    "isVideo": false,
+    "section": "guion"
+  }
+]
