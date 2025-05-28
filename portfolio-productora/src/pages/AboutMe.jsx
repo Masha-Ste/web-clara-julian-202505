@@ -2,16 +2,17 @@ import clara from '../assets/foto-clara.jpeg'
 
 function AboutMe() {
   return (
-    <section id='AboutMe' className='min-h-screen bg-black text-white px-6 py-16 flex items-center justify-center'>
-      <div className='max-w-6xl w-full flex flex-col  gap-10 items-center'>
-        <h2 className='text-4xl md:text-5xl font-bold text-yellow-400 mb-6 font-lime'>Sobre mí</h2>
-        <div className='flex-shrink-0 w-full md:w-1/2'>
-          <img src={clara} alt='Clara' className='w-full h-auto rounded-2xl shadow-lg object-cover' />
+    <section id='Sobre mi' className='min-h-screen bg-black/60 text-white px-6 py-16 flex items-center justify-center'>
+      <div className='max-w-6xl w-full'>
+        <h2 className='text-4xl md:text-5xl font-bold text-yellow-400 mb-6 font-lime text-center'>Sobre mí</h2>
+        <div className='flex flex-col md:flex-rowgap-8 items-start float-left mr-7 mb-7'>
+          <div className='flex-shrink-0 w-full md:w-1/3 '>
+            <img src={clara} alt='Clara' className='w-auto max-w-90 h-auto shadow-lg object-cover' />
+          </div>
         </div>
 
-        {/* Texto */}
-        <div className='w-full md:w-1/2 text-gray-200 text-left'>
-          <p className='text-lg leading-8 font-light whitespace-pre-line'>
+        <div className='w-full text-base md:text-lg leading-8 whitespace-pre-line '>
+          <p>
             ¡Hola! Soy Clara, productora junior, guionista e intento de directora. Nací en Terrassa (Barcelona) y me apasiona contar historias y desarrollar proyectos cinematográficos que conecten con el público desde lo emocional y lo visual.
             {'\n\n'}
             Me gradué en Comunicación e Industrias Culturales por la Universidad de Barcelona y más adelante me especialicé en Producción Ejecutiva a través del posgrado en Film Business de la ESCAC. Actualmente sigo formándome en guion de series en la Escuela Showrunners de Barcelona.

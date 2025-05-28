@@ -5,30 +5,31 @@ import Production from './pages/Production'
 import Direction from './pages/Direction'
 import Script from './pages/Script'
 
+import backgroundImage from './assets/night.gif'
+
 function App() {
   return (
-    <main className='font-sans scroll-smooth'>
-      <Landing />
+    <main className='scroll-smooth'>
+      <div
+        className='absolute inset-0 bg-black/40 min-w-full'
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <Landing />
 
-      <section id='Sobre Mi' className='pb-2 bg-gray-100 text-black flex items-center justify-center'>
         <AboutMe />
-      </section>
 
-      <section id='Producción' className='pb-2 bg-white text-black flex flex-col items-center justify-center'>
         <Production />
-      </section>
 
-      <section id='Dirección' className='pb-2 bg-gray-100 text-black flex items-center justify-center'>
         <Direction />
-      </section>
 
-      <section id='Guion' className='pb-2 bg-white text-black flex items-center justify-center'>
         <Script />
-      </section>
 
-      <section id='Contacto' className=' bg-white text-black flex items-center justify-center'>
         <Contact />
-      </section>
+      </div>
     </main>
   )
 }

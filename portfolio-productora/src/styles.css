@@ -1,17 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
 @import 'tailwindcss';
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
-html {
+/* html {
   scroll-behavior: smooth;
+} */
+
+body {
+  @apply scroll-smooth;
+  /* background: linear-gradient(135deg, #0d0054 0%, #6b00c6 25%, #bf81ff 50%, #00395c 75%, #0d0054 100%); bg-linear-[180deg,#0d0054_0%,#6b00c6_50%,#bf81ff_75%,#0d0054_100%]*/
+  /* background-attachment: fixed; */
+  background-size: cover;
+  font-family: 'Courier Prime', sans-serif;
+  background-image: url('./assets/night.gif');
+  background-position: 'center';
 }
 
 @theme {
   --font-lime: 'Limelight', sans-serif;
   --font-cursive: 'League Script', sans-serif;
+  --font-script: 'Courier Prime', sans-serif;
 }
