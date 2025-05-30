@@ -8,23 +8,23 @@ function Contact() {
 
         <div className='space-y-4 text-lg text-gray-300 flex justify-around '>
           <a href='mailto:clarajulianzamora@gmail.com' className='text-yellow-400 underline hover:text-yellow-300'>
-            <img src='public/assets/gmail.png' alt='gmail' className='max-w-10' />
+            <img src='/assets/gmail.png' alt='gmail' className='max-w-10' />
           </a>
 
           <a href='https://www.imdb.com/name/nm10628134/' target='_blank' rel='noopener noreferrer' className='text-yellow-400 underline hover:text-yellow-300'>
-            <img src='public/assets/imdb.png' alt='imbd' className='max-w-10' />
+            <img src='/assets/imdb.png' alt='imbd' className='max-w-10' />
           </a>
 
           <a href='https://es.linkedin.com/in/clara-julian-zamora-06ab86173' target='_blank' rel='noopener noreferrer' className='text-yellow-400 underline hover:text-yellow-300'>
-            <img src='public/assets/linkedin.png' alt='imbd' className='max-w-10' />
+            <img src='/assets/linkedin.png' alt='imbd' className='max-w-10' />
           </a>
 
           <a href='https://instagram.com/imclaraju' target='_blank' rel='noopener noreferrer' className='text-yellow-400 underline hover:text-yellow-300'>
-            <img src='public/assets/instagram.png' alt='imbd' className='max-w-10' />
+            <img src='/assets/instagram.png' alt='imbd' className='max-w-10' />
           </a>
 
           <a href='https://twitter.com/imclaraju' target='_blank' rel='noopener noreferrer' className='text-yellow-400 underline hover:text-yellow-300'>
-            <img src='public/assets/logotipos.png' alt='imbd' className='max-w-10' />
+            <img src='/assets/logotipos.png' alt='imbd' className='max-w-10' />
           </a>
         </div>
       </div>

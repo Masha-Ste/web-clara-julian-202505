@@ -1,5 +1,3 @@
-import clara from '../../public/assets/foto-clara.jpeg'
-
 function AboutMe() {
   return (
     <section id='Sobre mi' className='min-h-screen bg-black/60 text-white  py-10 flex items-center justify-center'>
@@ -7,7 +5,7 @@ function AboutMe() {
         <h2 className='text-4xl md:text-5xl font-bold text-yellow-400 mb-6 font-lime text-center'>Sobre mí</h2>
         <div className='flex flex-col md:flex-rowgap-8 items-start float-left mr-7 mb-7'>
           <div className='flex-shrink-0 w-full md:w-1/3 '>
-            <img src={clara} alt='Clara' className='w-auto max-w-90 h-auto shadow-lg object-cover' />
+            <img src='assets/foto-clara.jpeg' alt='Clara' className='w-auto max-w-90 h-auto shadow-lg object-cover' />
           </div>
         </div>
 

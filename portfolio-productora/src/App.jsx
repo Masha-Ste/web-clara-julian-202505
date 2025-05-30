@@ -5,15 +5,13 @@ import Production from './pages/Production'
 import Direction from './pages/Direction'
 import Script from './pages/Script'
 
-import backgroundImage from '../public/assets/night.gif'
-
 function App() {
   return (
     <main className='scroll-smooth'>
       <div
         className='absolute inset-0 bg-black/40 min-w-full'
         style={{
-          backgroundImage: `url(${backgroundImage})`,
+          backgroundImage: `url('/assets/night.gif')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
