@@ -5,7 +5,7 @@ import Production from './pages/Production'
 import Direction from './pages/Direction'
 import Script from './pages/Script'
 
-import backgroundImage from './assets/night.gif'
+import backgroundImage from '../public/assets/night.gif'
 
 function App() {
   return (
