@@ -1,4 +1,4 @@
-import clara from '../assets/foto-clara.jpeg'
+import clara from '../../public/assets/foto-clara.jpeg'
 
 function AboutMe() {
   return (
