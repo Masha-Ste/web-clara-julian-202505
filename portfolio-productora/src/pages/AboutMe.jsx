@@ -1,6 +1,6 @@
 function AboutMe() {
   return (
-    <section id='Sobre mi' className='min-h-screen bg-black/60 text-white  py-10 flex items-center justify-center'>
+    <section id='Sobre mí' className='min-h-screen bg-black/60 text-white  py-10 flex items-center justify-center'>
       <div className='max-w-6xl w-full'>
         <h2 className='text-4xl md:text-5xl font-bold text-yellow-400 mb-6 font-lime text-center'>Sobre mí</h2>
         <div className='flex flex-col md:flex-rowgap-8 items-start float-left mr-7 mb-7'>
