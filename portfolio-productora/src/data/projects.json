@@ -17,13 +17,13 @@
   {
     "title": "FUTBOL MODEST (2024)",
     "description": "Programa de televisión\nAyudante de producción – Estudi Carmel",
-    "media": "",
+    "media": "src/assets/futbol.png",
     "isVideo": false,
     "section": "produccion"
   },
   {
     "title": "LA NOCHE DE LA INFANCIA",
-    "description": "Largometraje documental\nen postproducción\nProductora Junior – LaCima Producciones",
+    "description": "Largometraje documental\nen postproducción\n Productora Junior – LaCima Producciones",
     "media": "src/assets/infancia.jpg",
     "isVideo": false,
     "section": "produccion"
@@ -38,14 +38,14 @@
   {
     "title": "LA RESERVA",
     "description": "Largometraje documental\nen postproducción\nProductora Junior – LaCima Producciones",
-    "media": "",
+    "media": "src/assets/reserva.jpg",
     "isVideo": false,
     "section": "produccion"
   },
   {
     "title": "LARVA (2025)",
     "description": "Cortometraje de ficción\nJefa de producción",
-    "media": "",
+    "media": "src/assets/larva.jpg",
     "isVideo": false,
     "section": "produccion"
   },
@@ -101,7 +101,7 @@
   {
     "title": "LA GÀBIA DE FLORS",
     "description": "Largometraje de ficción\nen desarrollo",
-    "media": "",
+    "media": "src/assets/gabia.jpeg",
     "isVideo": false,
     "section": "guion"
   }
