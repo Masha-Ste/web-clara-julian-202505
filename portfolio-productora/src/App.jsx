@@ -7,27 +7,30 @@ import Script from './pages/Script'
 
 function App() {
   return (
-    <main className='scroll-smooth'>
+    <main className='relative scroll-smooth min-h-screen'>
       <div
-        className='absolute inset-0 bg-black/40 min-w-full'
+        className='fixed inset-0 -z-10'
         style={{
           backgroundImage: `url('/assets/night.gif')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
+          backgroundRepeat: 'repeat',
         }}
-      >
-        <Landing />
+      ></div>
 
-        <AboutMe />
+      <div className='fixed inset-0 -z-10 bg black/40'></div>
 
-        <Production />
+      <Landing />
 
-        <Direction />
+      <AboutMe />
 
-        <Script />
+      <Production />
 
-        <Contact />
-      </div>
+      <Direction />
+
+      <Script />
+
+      <Contact />
     </main>
   )
 }
